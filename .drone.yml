@@ -4,12 +4,12 @@ script:
     #before_script:
   #- add-apt-repository -y ppa:ubuntu-wine/ppa
   #- add-apt-repository -y ppa:rbose-debianizer/automake
-  - apt-get update -qq
-  - apt-get install -y automake1.12
-  - apt-get install -y binutils-mingw-w64-i686
-  - apt-get install -y gcc-mingw-w64-i686 mingw-w64-tools
-  - apt-get install -y texinfo
-  - apt-get install -y wine1.7
+  #- apt-get update -qq
+  #- apt-get install -y automake1.12
+  #- apt-get install -y binutils-mingw-w64-i686
+  #- apt-get install -y gcc-mingw-w64-i686 mingw-w64-tools
+  #- apt-get install -y texinfo
+  #- apt-get install -y wine1.7
     #script:
   - cd binutils
   - mkdir build
