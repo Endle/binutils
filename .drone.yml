@@ -1,4 +1,4 @@
-image: endle/building-wine
+image: bradrydzewski/gcc:4.8
 
 script:
     #before_script:
