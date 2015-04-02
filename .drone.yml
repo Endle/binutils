@@ -1,4 +1,4 @@
-image: jeroenooms/i686-w64-mingw32
+image: endle/mingw
 
 script:
     #before_script:
